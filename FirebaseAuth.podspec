@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FirebaseAuth'
-  s.version          = '4.6.0'
+  s.version          = '5.0.0'
   s.summary          = 'The official iOS client for Firebase Authentication'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ supports email and password accounts, as well as several 3rd party authenticatio
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/Firebase'
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '10.0'
 
@@ -61,8 +61,8 @@ supports email and password accounts, as well as several 3rd party authenticatio
   }
   s.framework = 'SafariServices'
   s.framework = 'Security'
-  s.dependency 'FirebaseCore', '~> 4.0'
-  s.ios.dependency 'FirebaseAnalytics', '~> 4.0'
+  s.dependency 'FirebaseCore', '~> 5.0'
+  s.ios.dependency 'FirebaseAnalytics', '~> 5.0'
   s.dependency 'GTMSessionFetcher/Core', '~> 1.1'
   s.dependency 'GoogleToolboxForMac/NSDictionary+URLArguments', '~> 2.1'
 end
